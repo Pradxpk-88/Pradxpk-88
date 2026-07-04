@@ -97,7 +97,7 @@ class Prathep:
 
 <p>
 
-<img src="https://skillicons.dev/icons?i=python,java,sql"/>
+<img src="https://skillicons.dev/icons?i=python,sql"/>
 
 </p>
 
