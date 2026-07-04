@@ -258,3 +258,119 @@ A complete data analytics project exploring digital payment trends using Python,
 ### ⭐ *"Turning Data into Intelligence, One Model at a Time."*
 
 </div>
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Pradxpk-88&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&rank_icon=github"/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=Pradxpk-88&theme=tokyonight&hide_border=true&border_radius=15"/>
+
+</div>
+
+<div align="center">
+
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=Pradxpk-88&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+# 📈 Most Used Languages
+
+<div align="center">
+
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradxpk-88&layout=compact&theme=tokyonight&hide_border=true&border_radius=15"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Pradxpk-88&theme=tokyonight&column=4&margin-w=15&margin-h=15&no-frame=true"/>
+
+</div>
+
+---
+
+# ⚡ Development Activity
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pradxpk-88&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pradxpk-88&theme=tokyonight"/>
+
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pradxpk-88&theme=tokyonight"/>
+
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pradxpk-88&theme=tokyonight"/>
+
+</div>
+
+---
+
+# 🎓 Learning Roadmap
+
+<div align="center">
+
+| 🤖 AI | 📊 Data Science | ☁️ Cloud | 🚀 Career |
+|:------:|:---------------:|:--------:|:---------:|
+| 🟢 Machine Learning | 🟢 Data Analysis | 🟡 Docker | 🟢 Portfolio |
+| 🟢 Deep Learning | 🟢 Power BI | 🟡 Kubernetes | 🟢 GitHub |
+| 🟢 LLMs | 🟢 SQL | 🔴 AWS | 🟡 Open Source |
+| 🟡 LangGraph | 🟢 Python | 🔴 Azure | 🟢 Resume |
+| 🟡 Agentic AI | 🟢 Statistics | 🔴 GCP | 🟡 Research |
+
+</div>
+
+Legend:
+
+- 🟢 Strong
+- 🟡 Learning
+- 🔴 Planned
+
+---
+
+# 💡 Currently Exploring
+
+<div align="center">
+
+| Topic | Status |
+|------|--------|
+| 🤖 Generative AI | ██████████ 90% |
+| 🧠 LLM Applications | █████████░ 85% |
+| ⚙️ MLOps | ███████░░░ 65% |
+| 🌐 Agentic AI | ██████░░░░ 60% |
+| 📦 Vector Databases | █████░░░░░ 50% |
+| ☁️ Cloud Deployment | ████░░░░░░ 40% |
+
+</div>
+
+---
+
+# 🌟 Fun Facts
+
+- ☕ Coffee + Python = Productivity
+- 🤖 I enjoy building AI applications that solve real-world problems.
+- 📚 Always learning something new.
+- 🚀 Every project is an opportunity to improve.
+- 💡 Curious about the future of AI.
+
+---
+
+<div align="center">
+
+## ⭐ "Code. Learn. Build. Repeat."
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,100:7C3AED&height=120&section=footer"/>
+
+</div>
