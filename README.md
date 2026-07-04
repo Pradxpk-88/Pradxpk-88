@@ -374,3 +374,140 @@ Legend:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,100:7C3AED&height=120&section=footer"/>
 
 </div>
+
+---
+
+<h2 align="center">🌐 Connect With Me</h2>
+
+<div align="center">
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Pradxpk-88">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="mailto:your@email.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://leetcode.com/">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
+
+<a href="https://www.kaggle.com/">
+<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 🚀 Featured AI Projects
+
+<div align="center">
+
+| Project | Description | Stack |
+|:-------:|-------------|-------|
+| 🤖 **NOVA AI** | Intelligent AI Assistant with LLMs, automation, speech recognition and productivity tools | Python • LLM • LangChain |
+| ✈ **Drift Trip** | AI-powered travel planner with itinerary generation, weather, hotels and recommendations | Streamlit • LangChain • APIs |
+| 💼 **Code-Sense** | Employee productivity and burnout analytics dashboard | Python • Power BI • Analytics |
+| 📊 **Prime Dashboards** | Interactive BI dashboards and KPI visualization | Power BI • SQL |
+| 📱 **PhonePe Analysis** | Data analytics and visualization project | Python • Pandas • Matplotlib |
+
+</div>
+
+---
+
+# ⚡ AI Dashboard
+
+```text
+╔════════════════════════════════════════════╗
+║            PRATHEP OS v1.0                ║
+╠════════════════════════════════════════════╣
+║ STATUS           🟢 ONLINE                ║
+║ ROLE             AI Engineer              ║
+║ CURRENT PROJECT  NOVA AI                  ║
+║ FOCUS            Generative AI            ║
+║ LEARNING         Agentic AI               ║
+║ MISSION          Build Intelligent Systems║
+║ LOCATION         India                    ║
+╚════════════════════════════════════════════╝
+```
+
+---
+
+# 🧩 Developer Mindset
+
+```python
+while True:
+
+    learn()
+
+    build()
+
+    improve()
+
+    deploy()
+
+    repeat()
+```
+
+---
+
+# 📌 What I'm Working On
+
+```yaml
+Current:
+
+  - NOVA AI
+  - Agentic AI
+  - Data Science
+  - Deep Learning
+  - LLM Applications
+
+Next Goals:
+
+  - Data Scientist
+  - AI Engineer
+  - Open Source Contributor
+  - Research
+```
+
+---
+
+# 💻 Favorite Technologies
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python"/>
+
+<img src="https://skillicons.dev/icons?i=tensorflow"/>
+
+<img src="https://skillicons.dev/icons?i=pytorch"/>
+
+<img src="https://skillicons.dev/icons?i=docker"/>
+
+<img src="https://skillicons.dev/icons?i=git"/>
+
+<img src="https://skillicons.dev/icons?i=github"/>
+
+<img src="https://skillicons.dev/icons?i=vscode"/>
+
+<img src="https://skillicons.dev/icons?i=linux"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🚀 "AI isn't replacing developers. Developers using AI are replacing those who don't."
+
+⭐ Thanks for visiting my profile!
+
+If you like my work, consider giving a ⭐ to my repositories.
+
+</div>
