@@ -1,0 +1,60 @@
+<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050608"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="fText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#fBg)"/>
+
+  <!-- neural dots scattered -->
+  <g fill="#334155">
+    <circle cx="80" cy="40" r="2"/>
+    <circle cx="200" cy="25" r="1.6"/>
+    <circle cx="1000" cy="30" r="2"/>
+    <circle cx="1120" cy="50" r="1.6"/>
+    <circle cx="600" cy="20" r="1.8"/>
+  </g>
+
+  <!-- animated waves -->
+  <path fill="url(#waveGrad)" opacity="0.5">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="
+      M0,120 C300,90 900,150 1200,110 L1200,200 L0,200 Z;
+      M0,110 C300,150 900,90 1200,130 L1200,200 L0,200 Z;
+      M0,120 C300,90 900,150 1200,110 L1200,200 L0,200 Z"/>
+  </path>
+  <path fill="url(#waveGrad)" opacity="0.35">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+      M0,140 C400,170 800,110 1200,150 L1200,200 L0,200 Z;
+      M0,150 C400,110 800,170 1200,130 L1200,200 L0,200 Z;
+      M0,140 C400,170 800,110 1200,150 L1200,200 L0,200 Z"/>
+  </path>
+
+  <!-- floating particles -->
+  <g fill="#7dd3fc" opacity="0.8">
+    <circle r="1.8">
+      <animateMotion path="M0,60 C300,30 600,80 900,40 S1200,20 1200,60" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.5" fill="#f472b6">
+      <animateMotion path="M1200,70 C900,100 600,50 300,90 S0,60 0,70" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="600" y="60" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" fill="url(#fText)" letter-spacing="3">
+    PRATHEP OS &#8226; BUILDING INTELLIGENT SYSTEMS
+  </text>
+
+  <rect x="0" y="0" width="1200" height="3" fill="url(#waveGrad)"/>
+</svg>

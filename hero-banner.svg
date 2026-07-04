@@ -1,0 +1,116 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060a"/>
+      <stop offset="50%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bgGrad)"/>
+  <circle cx="180" cy="70" r="140" fill="url(#glow)"/>
+  <circle cx="1040" cy="250" r="160" fill="url(#glow)"/>
+
+  <!-- circuit grid lines -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="260" x2="1200" y2="260"/>
+    <line x1="150" y1="0" x2="150" y2="320"/>
+    <line x1="1050" y1="0" x2="1050" y2="320"/>
+  </g>
+
+  <!-- neural network nodes + connections -->
+  <g filter="url(#softBlur)">
+    <line x1="60" y1="90" x2="180" y2="150" stroke="url(#lineGrad)" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="180" y1="150" x2="90" y2="220" stroke="url(#lineGrad)" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="180" y1="150" x2="280" y2="90" stroke="url(#lineGrad)" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1140" y1="80" x2="1020" y2="140" stroke="url(#lineGrad)" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1020" y1="140" x2="1120" y2="230" stroke="url(#lineGrad)" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1020" y1="140" x2="900" y2="90" stroke="url(#lineGrad)" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- nodes -->
+    <g fill="#7dd3fc">
+      <circle cx="60" cy="90" r="3.5"><animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="180" cy="150" r="4.5"><animate attributeName="r" values="4;6.5;4" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="90" cy="220" r="3"><animate attributeName="r" values="2.5;4.5;2.5" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="280" cy="90" r="3"><animate attributeName="r" values="2.5;4.5;2.5" dur="2.7s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#c4b5fd">
+      <circle cx="1140" cy="80" r="3.5"><animate attributeName="r" values="3;5;3" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1020" cy="140" r="4.5"><animate attributeName="r" values="4;6.5;4" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="230" r="3"><animate attributeName="r" values="2.5;4.5;2.5" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="90" r="3"><animate attributeName="r" values="2.5;4.5;2.5" dur="3.1s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#f472b6" opacity="0.8">
+    <circle r="2.2">
+      <animateMotion path="M100,280 C300,180 500,300 700,200 S1000,120 1150,260" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.6" fill="#38bdf8">
+      <animateMotion path="M1150,60 C900,40 700,140 500,60 S150,20 50,120" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.8" fill="#a78bfa">
+      <animateMotion path="M50,40 C250,160 450,20 650,140 S950,260 1160,180" dur="13s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- brand chip -->
+  <g transform="translate(500,42)">
+    <rect x="0" y="0" width="200" height="30" rx="15" fill="#0f172a" stroke="#334155"/>
+    <circle cx="18" cy="15" r="4" fill="#4ade80">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="20" font-family="Consolas, Menlo, monospace" font-size="13" fill="#94a3b8" letter-spacing="2">PRATHEP OS · ONLINE</text>
+  </g>
+
+  <!-- main name -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)">
+    PRATHEP KUMAR R
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="200" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="18" fill="#94a3b8" letter-spacing="4">
+    AI &#8226; MACHINE LEARNING &#8226; DATA SCIENCE
+  </text>
+
+  <!-- tagline -->
+  <text x="600" y="232" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#475569" letter-spacing="1">
+    Final Year B.Tech AI &amp; Data Science &#8226; Building Intelligent Systems
+  </text>
+
+  <!-- bottom border pulse -->
+  <rect x="0" y="316" width="1200" height="4" fill="url(#textGrad)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
